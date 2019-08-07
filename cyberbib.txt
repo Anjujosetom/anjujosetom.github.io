@@ -1,0 +1,7 @@
+@article{tom2019three,
+  title={A Three-Way Optimization Technique for Noise Robust Moving Object Detection Using Tensor Low-Rank Approximation, l1/2, and TTV Regularizations},
+  author={Tom, Anju Jose and George, Sudhish N},
+  journal={IEEE transactions on cybernetics},
+  year={2019},
+  publisher={IEEE}
+}

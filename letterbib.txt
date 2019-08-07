@@ -1,0 +1,10 @@
+@article{tom2019video,
+  title={Video Completion and Simultaneous Moving Object Detection for Extreme Surveillance Environments},
+  author={Tom, Anju Jose and George, Sudhish N},
+  journal={IEEE Signal Processing Letters},
+  volume={26},
+  number={4},
+  pages={577--581},
+  year={2019},
+  publisher={IEEE}
+}

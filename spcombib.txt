@@ -1,0 +1,8 @@
+@inproceedings{tom2018tensor,
+  title={Tensor Total Variation Regularized Moving Object Detection for Surveillance Videos},
+  author={Tom, Anju Jose and George, Sudhish N},
+  booktitle={2018 International Conference on Signal Processing and Communications (SPCOM)},
+  pages={327--331},
+  year={2018},
+  organization={IEEE}
+}
