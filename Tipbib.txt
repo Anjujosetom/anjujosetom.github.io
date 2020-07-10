@@ -1,0 +1,8 @@
+@ARTICLE{9130064,
+  author={A. J. {Tom} and S. N. {George}},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Simultaneous Reconstruction and Moving Object Detection from Compressive Sampled Surveillance Videos}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},}
