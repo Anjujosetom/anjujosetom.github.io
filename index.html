@@ -233,8 +233,7 @@
     This project demonstrates my ability to combine <em>LangChain</em>, <em>FAISS</em>, and <em>Hugging Face embeddings</em> with advanced LLMs like <em>FLAN-T5-large</em> to deliver accurate, context-grounded insights.
   </p>
   <ul>
-    <li><a href="https://nbviewer.org/github/Anjujosetom/anjujosetom.github.io/blob/main/projects/rag-chatbot/rag_chatbot.ipynb">📖 View Notebook in nbviewer</a></li>
-    <li><a href="https://colab.research.google.com/github/Anjujosetom/anjujosetom.github.io/blob/main/projects/rag-chatbot/rag_chatbot.ipynb">▶️ Run in Colab</a></li>
+   <li><a href="https://colab.research.google.com/github/Anjujosetom/anjujosetom.github.io/blob/main/projects/rag-chatbot/rag_chatbot.ipynb">▶️ Run in Colab</a></li>
   </ul>
 
   <h3>4. Data Repurposing (DARE) Project – French National Institute for Research in Computer Science and Automation (INRIA), France</h3>
@@ -268,14 +267,49 @@
     This project accelerated <b>compliance auditing</b>, enabled <b>faster data-driven policy decisions</b>, and showcased my ability to operationalize <b> AI at scale on sensitive government data</b>.  
   </p>
 
-  <h3>7. Visual Search Engine using Semantic Cosine Similarity (GenAI Project)</h3>
-  <p>
-    This work is part of <b> Generative AI </b>, showcasing innovation in <b>embeddings, semantic similarity, and user-preference modeling</b>.  
-    I developed a <b>semantic similarity embedding and sampling algorithm</b> for large-scale image datasets that dynamically integrates <b>user preferences</b> with representation learning.  
-    By leveraging <b>cosine similarity</b> and transfer learning from nine pre-trained models (ResNet, DenseNet, EfficientNet, MobileNet, Xception), 
-    the system enables <b>personalized visual search</b> and <b>efficient semantic sampling</b>.  
-    Experiments on the COCO dataset highlight how transfer learning and user-centric weighting can drive accurate semantic search and efficient resource utilization.
-  </p>
+<h3> 7. Visual Search Engine using Semantic Cosine Similarity (GenAI Project)</h3>
+<p>
+  This project is part of my broader <b>Generative AI</b> research, demonstrating advanced expertise in 
+  <b>embeddings, semantic similarity, user-preference modeling, and large-scale visual retrieval</b>.  
+  I designed and implemented a <b>semantic similarity embedding and sampling algorithm</b> tailored for 
+  <b>large-scale image datasets</b>, dynamically integrating <b>user preferences</b> with 
+  <b>representation learning</b> to deliver highly personalized and context-aware search.  
+
+  Leveraging <b>cosine similarity</b> and <b>transfer learning</b> from nine state-of-the-art pre-trained models 
+  (ResNet, DenseNet, EfficientNet, MobileNet, Xception, among others), the engine aligns low-level image features 
+  with high-level semantic intent. This enables <b>personalized visual search</b> that adapts to user behavior and 
+  optimizes query-to-result relevance.  
+
+  The system includes an <b>efficient semantic sampling module</b> that accelerates retrieval by reducing search 
+  space while preserving semantic accuracy, making it scalable for production-level multimedia search engines. 
+  Experiments on the <b>COCO dataset</b> validated the pipeline, showing significant improvements in retrieval 
+  accuracy and resource efficiency compared to baseline models.  
+
+  This project enhanced my expertise in <b>multi-modal AI</b> (vision + embeddings), <b>large-scale similarity 
+  search</b>, and <b>personalized recommendation systems</b>, skills that directly translate into real-world 
+  applications such as <b>video discovery, AI-powered storytelling, and intelligent media editing platforms</b>.
+</p>
+
+<h2>Pipeline</h2>
+<ul>
+  <li><strong>Input:</strong> Large-scale image datasets (e.g., COCO) with diverse categories and user interaction data</li>
+  <li><strong>Process:</strong> 
+    <ul>
+      <li>Extract embeddings using multiple pre-trained CNNs (ResNet, DenseNet, EfficientNet, MobileNet, Xception)</li>
+      <li>Compute <b>semantic similarity</b> with cosine distance across embeddings</li>
+      <li>Integrate <b>user-preference weighting</b> to personalize ranking</li>
+      <li>Apply <b>semantic sampling</b> to reduce search space while maintaining accuracy</li>
+    </ul>
+  </li>
+  <li><strong>Output:</strong>
+    <ul>
+      <li>Personalized ranked list of visually similar images</li>
+      <li>Efficient semantic sampling for faster retrieval</li>
+      <li>Improved accuracy and scalability for multimedia search engines</li>
+    </ul>
+  </li>
+</ul>
+
 
   <!-- Project Image -->
   <img src="visual_search_engine2.png" alt="Visual Search Engine Diagram" style="max-width:100%; border-radius:6px; margin: 1rem 0;">
@@ -333,6 +367,102 @@
   The project was <b>implemented with a sample dataset</b>, demonstrating the practical application of <b>AI in fraud risk 
   management</b>.
 </p>
+<h3> 13. Video Summarisation = Multi-Modal Content Understanding</h3>
+
+<p>
+  Built an end-to-end pipeline that ingests raw video, extracts audio, transcribes speech with 
+  <strong>Whisper</strong>, and generates concise abstractive summaries using  
+  <strong>HuggingFace Transformers</strong>. Experimented with open-domain videos (e.g., Blender Foundation films)  
+  to evaluate both extractive and abstractive approaches, highlighting strengths and limitations such as hallucinations  
+  in domain-mismatched dialogue. This project gave me practical expertise in <strong>multi-modal AI</strong>,  
+  including speech-to-text, NLP summarisation, and video processing with FFmpeg/MoviePy, and deepened my understanding  
+  of how evaluation metrics (ROUGE, BERTScore, human ratings) shape the design of AI-driven summarisation tools.  
+  The hands-on implementation strengthened my ability to translate research concepts into applied GenAI systems for  
+  video governance, editing, and storytelling.
+</p>
+
+<h2>Pipeline</h2>
+<ul>
+  <li><strong>Input:</strong> Raw video (frames + audio + metadata)</li>
+  <li><strong>Process:</strong> Break into transcript, detect scenes, extract entities, rank segments</li>
+  <li><strong>Output:</strong>
+    <ul>
+      <li>Shortened video clip (highlights)</li>
+      <li>Abstractive text summary (storyline)</li>
+      <li>Metadata (tags, chapters, searchable content)</li>
+    </ul>
+  </li>
+</ul>
+<h3>14. Multi-Modal Video Retrieval using Text-to-Video Embeddings (GenAI Project)</h3>
+<p>
+  This project demonstrates expertise in <b>multi-modal learning</b>, integrating <b>vision and language embeddings</b> 
+  for intelligent video retrieval. I developed a system where natural language queries (text) can accurately retrieve 
+  semantically matching video segments, combining <b>CLIP embeddings</b> (OpenAI) with <b>temporal scene detection</b> 
+  and <b>semantic similarity ranking</b>. By aligning textual and visual spaces into a shared embedding domain, 
+  the engine enables <b>cross-modal search</b>—for example, querying "a person riding a bicycle near the ocean" will 
+  return the most relevant clips across a dataset.  
+
+  The project strengthened my expertise in <b>multi-modal embeddings, cross-domain similarity, and temporal alignment</b>, 
+  and showcased how such techniques can power <b>video discovery, automated content tagging, and AI-driven storytelling</b> 
+  at production scale. Experiments on curated datasets validated the pipeline, showing strong alignment between text queries 
+  and retrieved video snippets, and highlighted practical pathways to integrate this technology into real-world 
+  <b>media editing platforms and enterprise compliance tools</b>.
+</p>
+<h3>15. Audio-Visual Emotion Recognition for Multi-Modal Understanding (GenAI Project)</h3>
+<p>
+  This project explores <b>multi-modal fusion of audio and visual signals</b> to detect and classify human emotions 
+  from video content. I developed an <b>emotion recognition pipeline</b> that combines facial expression analysis with 
+  speech prosody (tone, pitch, rhythm) using deep learning models, creating a richer representation of human affect. 
+  By leveraging <b>convolutional neural networks (CNNs)</b> for visual features and <b>transformer-based encoders</b> 
+  for audio signals, the system achieved strong performance in predicting emotional states across categories such as 
+  happiness, anger, sadness, and surprise.  
+
+  This project strengthened my expertise in <b>multi-modal fusion, temporal modeling, and affective computing</b>, 
+  and demonstrated practical applications in <b>video summarisation, content moderation, mental health monitoring, 
+  and personalized media experiences</b>. Experiments on benchmark datasets (e.g., RAVDESS, CREMA-D) validated the 
+  approach, showing that combining modalities significantly outperforms unimodal systems.
+</p>
+
+<h2>Pipeline</h2>
+<ul>
+  <li><strong>Input:</strong> Video clips containing both facial expressions and speech audio</li>
+  <li><strong>Process:</strong>
+    <ul>
+      <li>Extract facial embeddings using CNNs or pre-trained models (VGGFace, ResNet50)</li>
+      <li>Extract audio features (MFCCs, spectrograms, prosody cues) using transformer-based encoders</li>
+      <li>Fuse embeddings through multi-modal attention and temporal alignment</li>
+      <li>Classify into discrete emotion categories (e.g., happy, sad, angry, surprised)</li>
+    </ul>
+  </li>
+  <li><strong>Output:</strong>
+    <ul>
+      <li>Predicted emotional labels for each video segment</li>
+      <li>Confidence scores for multi-modal emotion detection</li>
+      <li>Emotion-aware metadata for downstream video analytics or storytelling</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Pipeline</h2>
+<ul>
+  <li><strong>Input:</strong> Raw video datasets with transcripts and metadata + user text queries</li>
+  <li><strong>Process:</strong>
+    <ul>
+      <li>Extract frame-level embeddings using <b>CLIP vision encoder</b></li>
+      <li>Generate text embeddings for user queries via <b>CLIP text encoder</b></li>
+      <li>Align both modalities in a shared embedding space</li>
+      <li>Apply <b>temporal scene segmentation</b> to localize video segments</li>
+      <li>Rank candidate clips using <b>cosine similarity</b> between text and video embeddings</li>
+    </ul>
+  </li>
+  <li><strong>Output:</strong>
+    <ul>
+      <li>Top-K video clips matching user’s text query</li>
+      <li>Automatic cross-modal indexing of video collections</li>
+      <li>Semantic tags and descriptors for improved content discovery</li>
+    </ul>
+  </li>
+</ul>
 
 </section>
 <!-- ===== Stakeholder Engagement ===== -->
