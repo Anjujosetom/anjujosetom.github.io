@@ -408,6 +408,26 @@
   and retrieved video snippets, and highlighted practical pathways to integrate this technology into real-world 
   <b>media editing platforms and enterprise compliance tools</b>.
 </p>
+  <h2>Pipeline</h2>
+<ul>
+  <li><strong>Input:</strong> Raw video datasets with transcripts and metadata + user text queries</li>
+  <li><strong>Process:</strong>
+    <ul>
+      <li>Extract frame-level embeddings using <b>CLIP vision encoder</b></li>
+      <li>Generate text embeddings for user queries via <b>CLIP text encoder</b></li>
+      <li>Align both modalities in a shared embedding space</li>
+      <li>Apply <b>temporal scene segmentation</b> to localize video segments</li>
+      <li>Rank candidate clips using <b>cosine similarity</b> between text and video embeddings</li>
+    </ul>
+  </li>
+  <li><strong>Output:</strong>
+    <ul>
+      <li>Top-K video clips matching user’s text query</li>
+      <li>Automatic cross-modal indexing of video collections</li>
+      <li>Semantic tags and descriptors for improved content discovery</li>
+    </ul>
+  </li>
+</ul>
 <h3>15. Audio-Visual Emotion Recognition for Multi-Modal Understanding (GenAI Project)</h3>
 <p>
   This project explores <b>multi-modal fusion of audio and visual signals</b> to detect and classify human emotions 
@@ -443,26 +463,7 @@
   </li>
 </ul>
 
-<h2>Pipeline</h2>
-<ul>
-  <li><strong>Input:</strong> Raw video datasets with transcripts and metadata + user text queries</li>
-  <li><strong>Process:</strong>
-    <ul>
-      <li>Extract frame-level embeddings using <b>CLIP vision encoder</b></li>
-      <li>Generate text embeddings for user queries via <b>CLIP text encoder</b></li>
-      <li>Align both modalities in a shared embedding space</li>
-      <li>Apply <b>temporal scene segmentation</b> to localize video segments</li>
-      <li>Rank candidate clips using <b>cosine similarity</b> between text and video embeddings</li>
-    </ul>
-  </li>
-  <li><strong>Output:</strong>
-    <ul>
-      <li>Top-K video clips matching user’s text query</li>
-      <li>Automatic cross-modal indexing of video collections</li>
-      <li>Semantic tags and descriptors for improved content discovery</li>
-    </ul>
-  </li>
-</ul>
+
 
 </section>
 <!-- ===== Stakeholder Engagement ===== -->
